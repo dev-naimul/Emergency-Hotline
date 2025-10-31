@@ -38,7 +38,7 @@
           <div><img src="./assets/heart.png" alt="" class="w-6 ml-2" /></div>
         </div>
         <div class="flex px-6 py-3 bg-slate-300 rounded-3xl">
-          <span class="font-bold">100</span>
+          <span class="font-bold" id="coin">100</span>
           <div><img src="./assets/coin.png" alt="" class="w-6 ml-2" /></div>
         </div>
         <div class="flex px-8 py-3 bg-green-600 rounded-3xl">
@@ -75,11 +75,11 @@
             <i class="w-full cursor-pointer fa-regular fa-heart heart-count"></i>
           </div>
           <div>
-            <p class="font-bold md:text-[20px]">National Emergency Number</p>
+            <p class="font-bold md:text-[20px]" id="national">National Emergency Number</p>
             <p class="text-sm">National Emergency</p>
           </div>
           <div class="mt-3">
-            <h1 class="font-bold md:text-[24px]">999</h1>
+            <h1 class="font-bold md:text-[24px]" id="national-num">999</h1>
             <button class="bg-gray-300 btn btn-xs rounded-2xl">All</button>
           </div>
 
@@ -87,7 +87,7 @@
             <button class="btn md:px-10">
               <i class="fa-regular fa-copy"></i>Copy
             </button>
-            <button class="text-white bg-green-600 md:px-10 btn">
+            <button class="text-white bg-green-600 md:px-10 btn" id="call-1">
               <i class="text-white fa-solid fa-phone"></i>Call
             </button>
           </div>
@@ -102,11 +102,11 @@
             <i class="cursor-pointer fa-regular fa-heart heart-count"></i>
           </div>
           <div>
-            <p class="font-bold md:text-[20px]">Police Helpline Number</p>
+            <p class="font-bold md:text-[20px]" id="police">Police Helpline Number</p>
             <p class="text-sm">Police</p>
           </div>
           <div class="mt-3">
-            <h1 class="font-bold md:text-[24px]">999</h1>
+            <h1 class="font-bold md:text-[24px]" id="police-num">999</h1>
             <button class="bg-gray-300 btn btn-xs rounded-2xl">Police</button>
           </div>
 
@@ -114,7 +114,7 @@
             <button class="btn md:px-10">
               <i class="fa-regular fa-copy"></i>Copy
             </button>
-            <button class="text-white bg-green-600 md:px-10 btn">
+            <button class="text-white bg-green-600 md:px-10 btn" id="call-2">
               <i class="text-white fa-solid fa-phone"></i>Call
             </button>
           </div>
@@ -129,11 +129,11 @@
             <i class="cursor-pointer fa-regular fa-heart heart-count"></i>
           </div>
           <div>
-            <p class="font-bold md:text-[20px]">Fire Service Number</p>
+            <p class="font-bold md:text-[20px]" id="fire-service">Fire Service Number</p>
             <p class="text-sm">Fire Service</p>
           </div>
           <div class="mt-3">
-            <h1 class="font-bold md:text-[24px]">999</h1>
+            <h1 class="font-bold md:text-[24px]" id="fire-service-num">999</h1>
             <button class="bg-gray-300 btn btn-xs rounded-2xl">Fire</button>
           </div>
 
@@ -141,7 +141,7 @@
             <button class="btn md:px-10">
               <i class="fa-regular fa-copy"></i>Copy
             </button>
-            <button class="text-white bg-green-600 md:px-10 btn">
+            <button class="text-white bg-green-600 md:px-10 btn" id="call-3">
               <i class="text-white fa-solid fa-phone"></i>Call
             </button>
           </div>
@@ -156,11 +156,11 @@
             <i class="cursor-pointer fa-regular fa-heart heart-count"></i>
           </div>
           <div>
-            <p class="font-bold md:text-[20px]">Ambulance Service</p>
+            <p class="font-bold md:text-[20px]" id="ambulance">Ambulance Service</p>
             <p class="text-sm">Ambulance</p>
           </div>
           <div class="mt-3">
-            <h1 class="font-bold md:text-[24px]">1994-999999</h1>
+            <h1 class="font-bold md:text-[24px]" id="ambulance-num">1994-999999</h1>
             <button class="bg-gray-300 btn btn-xs rounded-2xl">Health</button>
           </div>
 
@@ -168,7 +168,7 @@
             <button class="btn md:px-10">
               <i class="fa-regular fa-copy"></i>Copy
             </button>
-            <button class="text-white bg-green-600 md:px-10 btn">
+            <button class="text-white bg-green-600 md:px-10 btn" id="call-4">
               <i class="text-white fa-solid fa-phone"></i>Call
             </button>
           </div>
@@ -183,11 +183,11 @@
             <i class="cursor-pointer fa-regular fa-heart heart-count"></i>
           </div>
           <div>
-            <p class="font-bold md:text-[20px]">Women & Child Helpline</p>
+            <p class="font-bold md:text-[20px]" id="women" >Women & Child Helpline</p>
             <p class="text-sm">Women & Child</p>
           </div>
           <div class="mt-3">
-            <h1 class="font-bold md:text-[24px]">109</h1>
+            <h1 class="font-bold md:text-[24px]" id="women-num" >109</h1>
             <button class="bg-gray-300 btn btn-xs rounded-2xl">Help</button>
           </div>
 
@@ -195,7 +195,7 @@
             <button class="btn md:px-10">
               <i class="fa-regular fa-copy"></i>Copy
             </button>
-            <button class="text-white bg-green-600 md:px-10 btn">
+            <button class="text-white bg-green-600 md:px-10 btn" id="call-5">
               <i class="text-white fa-solid fa-phone"></i>Call
             </button>
           </div>
@@ -210,11 +210,11 @@
             <i class="cursor-pointer fa-regular fa-heart heart-count"></i>
           </div>
           <div>
-            <p class="font-bold md:text-[20px]">Anti-Corruption Helpline</p>
+            <p class="font-bold md:text-[20px]" id="Anti-Corruption" >Anti-Corruption Helpline</p>
             <p class="text-sm">Anti-Corruption</p>
           </div>
           <div class="mt-3">
-            <h1 class="font-bold md:text-[24px]">106</h1>
+            <h1 class="font-bold md:text-[24px]" id="Anti-Corruption-num" >106</h1>
             <button class="bg-gray-300 btn btn-xs rounded-2xl">Govt.</button>
           </div>
 
@@ -222,7 +222,7 @@
             <button class="btn md:px-10">
               <i class="fa-regular fa-copy"></i>Copy
             </button>
-            <button class="text-white bg-green-600 md:px-10 btn">
+            <button class="text-white bg-green-600 md:px-10 btn" id="call-6">
               <i class="text-white fa-solid fa-phone"></i>Call
             </button>
           </div>
@@ -237,11 +237,11 @@
             <i class="cursor-pointer fa-regular fa-heart heart-count"></i>
           </div>
           <div>
-            <p class="font-bold md:text-[20px]">Electricity Helpline</p>
+            <p class="font-bold md:text-[20px]" id="Electricity-Helpline" >Electricity Helpline</p>
             <p class="text-sm">Electricity</p>
           </div>
           <div class="mt-3">
-            <h1 class="font-bold md:text-[24px]">16216</h1>
+            <h1 class="font-bold md:text-[24px]" id="Electricity-Helpline-num" >16216</h1>
             <button class="bg-gray-300 btn btn-xs rounded-2xl">
               Electricity
             </button>
@@ -251,7 +251,7 @@
             <button class="btn md:px-10">
               <i class="fa-regular fa-copy"></i>Copy
             </button>
-            <button class="text-white bg-green-600 md:px-10 btn">
+            <button class="text-white bg-green-600 md:px-10 btn" id="call-7">
               <i class="text-white fa-solid fa-phone"></i>Call
             </button>
           </div>
@@ -266,11 +266,11 @@
             <i class="cursor-pointer fa-regular fa-heart heart-count"></i>
           </div>
           <div>
-            <p class="font-bold md:text-[20px]">Brac Helpline</p>
+            <p class="font-bold md:text-[20px]" id="Brac-Helpline" >Brac Helpline</p>
             <p class="text-sm">Brac</p>
           </div>
           <div class="mt-3">
-            <h1 class="font-bold md:text-[24px]">16445</h1>
+            <h1 class="font-bold md:text-[24px]" id="Brac-Helpline-num" >16445</h1>
             <button class="bg-gray-300 btn btn-xs rounded-2xl">NGO</button>
           </div>
 
@@ -278,7 +278,7 @@
             <button class="btn md:px-10">
               <i class="fa-regular fa-copy"></i>Copy
             </button>
-            <button class="text-white bg-green-600 md:px-10 btn">
+            <button class="text-white bg-green-600 md:px-10 btn" id="call-8">
               <i class="text-white fa-solid fa-phone"></i>Call
             </button>
           </div>
@@ -293,11 +293,11 @@
             <i class="cursor-pointer fa-regular fa-heart heart-count"></i>
           </div>
           <div>
-            <p class="font-bold md:text-[20px]">Bangladesh Railway Helpline</p>
+            <p class="font-bold md:text-[20px]" id="Railway-Helpline" >Bangladesh Railway Helpline</p>
             <p class="text-sm">Bangladesh Railway</p>
           </div>
           <div class="md:mt-3">
-            <h1 class="font-bold md:text-[24px]">163</h1>
+            <h1 class="font-bold md:text-[24px]" id="Railway-Helpline-num">163</h1>
             <button class="bg-gray-300 btn btn-xs rounded-2xl">Travel</button>
           </div>
 
@@ -305,7 +305,7 @@
             <button class="btn md:px-10">
               <i class="fa-regular fa-copy"></i>Copy
             </button>
-            <button class="text-white bg-green-600 md:px-10 btn">
+            <button class="text-white bg-green-600 md:px-10 btn" id="call-9" >
               <i class="text-white fa-solid fa-phone"></i>Call
             </button>
           </div>
@@ -317,19 +317,11 @@
             <i class="mt-1 fa-regular fa-clock"></i>
             <p class="text-center">Call History</p>
           </div>
-          <button type="submit" class="text-white bg-green-700 rounded-2xl btn">
+          <button type="submit" class="text-white bg-green-700 rounded-2xl btn" >
             Clear
           </button>
         </div>
-
-        <div class="flex justify-between p-3 mt-5 bg-gray-200 rounded-xl">
-          <div>
-            <h1>Fire Service Number</h1>
-            <p>999</p>
-          </div>
-          <div>
-            <p>10-12-2025</p>
-          </div>
+        <div id="history-container">
         </div>
       </aside>
     </section>
