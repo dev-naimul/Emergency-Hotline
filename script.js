@@ -296,3 +296,21 @@ getElement("call-9").addEventListener('click',function(){
     `
     historyContainer.append(history);
 })
+
+
+//copy-button//
+
+const copyCount =document.getElementsByClassName("copy-count");
+for( const Count of copyCount){
+    Count.addEventListener("click",function(){
+        const copyNumber= getElement("copy-number").innerText
+       const totalCopyNum=  Number(copyNumber) + 1 ;
+       document.getElementById("copy-number").innerText =  totalCopyNum;
+    const copyCallNum= Count.parentNode.parentNode.childNodes[5].childNodes[1].innerText
+    
+    navigator.clipboard.writeText(copyCallNum)
+    .then(()=>{
+        alert("Text Copied:"+copyCallNum )
+    })
+
+    })}
