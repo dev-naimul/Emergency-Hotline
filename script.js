@@ -15,6 +15,13 @@ for( const count of heartCount){
 }
 
 
+ // clear-button//
+getElement("clear-btn").addEventListener("click",function(){
+    getElement("history-container").innerHTML=""
+})
+
+
+
 // call-button//
 getElement("call-1").addEventListener('click',function(){
    
